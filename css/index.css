@@ -1,0 +1,151 @@
+.container-fluid {
+    padding: 0px;
+}
+
+.mybox {
+    padding: 4rem;
+}
+
+.zoom {
+    transition: transform .2s;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+}
+
+.services {
+    margin-top: -8rem;
+}
+
+.service_img {
+    width: 100px;
+}
+
+.box1 {
+    background-color: #3151AA;
+}
+
+.box2 {
+    background-color: #5B6149;
+}
+
+.box3 {
+    background-color: #945A5C;
+}
+
+.mobile {
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: #7374b0;
+}
+
+.cover2 {
+    border-radius: 20px;
+}
+
+.indexcover {
+    height: 600px;
+    background-image: url("../images/newcover.jpg");
+    background-size: cover;
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact_div {
+    background-color: #3151AA;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footerlink {
+    text-decoration: none;
+    color: white;
+}
+
+.social {
+    font-size: 28px;
+}
+
+.social a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    padding-right: 10px;
+}
+
+.tele {
+    text-decoration: none;
+    color: white;
+}
+
+.tele:hover {
+    color: rgb(255, 148, 148);
+}
+
+.price {
+    font-size: x-large;
+    color: green;
+}
+
+.login {
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.register {
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.resgister_img {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.error {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background: #fad2d2;
+}
+
+.success {
+    /* color: green; */
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    background: #d2fad2;
+}
+
+.achive_list {
+    list-style: none;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.achive_list li:before {
+    content: "\2713";
+    color: #b40303;
+    font-weight: bold;
+    font-size: larger;
+    display: inline-block;
+    width: 1.5em;
+    margin-left: -1em;
+    padding: 5px;
+}
+
+.tick {
+    font-size: 40px;
+    color: green;
+}
